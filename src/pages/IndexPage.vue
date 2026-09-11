@@ -9,7 +9,7 @@
       <q-input
         filled
         v-model="name"
-        label="Your name *"
+        label="Your name (ชื่อ-สกุล) *"
         hint="Name and surname"
       />
 
@@ -17,7 +17,7 @@
         filled
         type="number"
         v-model="age"
-        label="Your age *"
+        label="Your age (อายุ) *"
       />
 
       <q-toggle
